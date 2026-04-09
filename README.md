@@ -21,8 +21,7 @@ cd backend
 pip install flask flask-cors
 python app.py
 
----
-## Feature Section
+### Feature Section
 - Add new tasks  
 - View all tasks  
 - Mark tasks as completed  
@@ -30,7 +29,7 @@ python app.py
 - Filter tasks (All / Completed / Pending)
 ---
 
-## Project Structure
+### Project Structure
 task-manager-app/
 │
 ├── backend/
@@ -43,6 +42,15 @@ task-manager-app/
 │
 └── README.md
 ---
+
+### API Endpoints
+
+| Method | Endpoint       | Description        |
+|--------|--------------|--------------------|
+| GET    | /tasks       | Get all tasks      |
+| POST   | /tasks       | Create new task    |
+| PATCH  | /tasks/:id   | Update task status |
+| DELETE | /tasks/:id   | Delete task        |
 
 ## API Endpoints
 
